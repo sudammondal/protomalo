@@ -116,10 +116,11 @@ ul {
         overflow-x: hidden;
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
-        transition: 0.5s; }
+        transition: 0.5s;
+        padding-top: 15px; }
         .header .main_manu .humburgar_search .sidenav .humburger_list {
           border-bottom: 1px solid #ddd;
-          margin: 15px 43px; }
+          margin: 0 43px; }
           .header .main_manu .humburgar_search .sidenav .humburger_list .closebtn {
             position: absolute;
             top: 5px;

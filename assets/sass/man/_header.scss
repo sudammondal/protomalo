@@ -52,9 +52,10 @@
             background-color: #ffff;
             overflow-x: hidden;
             transition: 0.5s;
+            padding-top: 15px;
             .humburger_list{
               border-bottom: 1px solid #ddd;
-              margin: 15px 43px;
+              margin: 0 43px;
               .closebtn {
                 position: absolute;
                 top: 5px;
