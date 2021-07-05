@@ -1,5 +1,6 @@
 .home_wraper {
     padding-top: 30px;
+    margin-top: 158px;
     .borderBTom {
         .banner_home_fast {
             margin-bottom: 15px;
@@ -209,7 +210,7 @@
                    align-items: center;
                    background-color: #c8dff3;
                    .paper_list {
-                       a {
+                       a {color: #1a237e; 
                            .paper_pra {
                                 max-width: 164px;
                                 font-size: 16px;
@@ -217,12 +218,7 @@
                                 margin-right: 6px;
                                 font-weight: 600;
                                 font-family: 'Merriweather Sans', sans-serif;
-                                color: #121212;
-                                transition: all 0.5s ease;
-                                &:hover {
-                                    color: #1a237e; 
-                                }
-
+                                font-family: 'Shurjo', sans-serif;
                             }
                        }
                     }
