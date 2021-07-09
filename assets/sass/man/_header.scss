@@ -52,7 +52,7 @@
             background-color: #ffff;
             overflow-x: hidden;
             transition: 0.5s;
-            padding-top: 15px;
+            padding: 15px 0;
             .humburger_list{
               border-bottom: 1px solid #ddd;
               margin: 0 43px;
@@ -80,12 +80,33 @@
                 font-weight: 500;
                
               }  
-              &:first-child {
+              &:first-child,&:last-child {
                 border-bottom: 1px solid transparent;
               }
               &:hover {
                 background-color: #f7f7f7;
                 .humbarger_link {color: #1a237e;}
+                &:last-child {
+                  background-color: transparent;
+                }
+              }
+              .vertical_Manubar {
+                display: flex;
+                .vertical_items {
+                  margin-right: 10px;
+                  padding: 15px 0;
+                  .veartical_Link {
+                    width: 30px;
+                    height: 30px;
+                    background: rgb(238, 238, 238);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    color: rgb(18, 18, 18);
+                    
+                  }
+                }
               }
 
             }
@@ -281,6 +302,7 @@
     }
     .navbar {
       position: relative;
+      box-shadow: 0 3px 6px 0px #00000026;
       &::before {
         content: "";
         position: absolute;
