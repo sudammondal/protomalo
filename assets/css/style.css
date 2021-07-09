@@ -36,15 +36,25 @@ ul {
     padding-left: 16px;
     padding-right: 16px; } }
 
-.border_al {
+.border_left {
   position: relative; }
-  .border_al::before {
+  .border_left::before {
     content: "";
     width: 1px;
     height: 100%;
     background: #e2e2e2;
     position: absolute;
     left: -12px; }
+
+.border_right {
+  position: relative; }
+  .border_right::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #e2e2e2;
+    position: absolute;
+    right: -12px; }
 
 .borderBTom {
   position: relative; }
@@ -61,6 +71,24 @@ ul {
 
 .divider {
   border-bottom: 1px solid #000; }
+
+.rajdhani_head {
+  font-size: 16px;
+  font-weight: 600;
+  color: #121212;
+  margin-bottom: 20px;
+  position: relative; }
+  .rajdhani_head::before {
+    position: absolute;
+    content: "\f105";
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    color: #f4511e;
+    font-size: 15px;
+    right: -15px;
+    font-size: 17px; }
 
 .header {
   background-color: #ffffff;
@@ -774,42 +802,25 @@ ul {
 
 .capital_worwp {
   margin-bottom: 29px; }
-  .capital_worwp .rajdhani_head {
-    font-size: 16px;
-    font-weight: 600;
-    color: #121212;
-    margin-bottom: 20px;
-    position: relative; }
-    .capital_worwp .rajdhani_head::before {
-      position: absolute;
-      content: "\f105";
-      font-family: 'Font Awesome 5 free';
-      font-weight: 900;
-      position: absolute;
-      top: 0;
-      color: #f4511e;
-      font-size: 15px;
-      right: -15px;
-      font-size: 17px; }
-  .capital_worwp .rajdhani_main .rajdhani_item {
+  .capital_worwp .rajdhani_item {
     position: relative;
     margin-bottom: 15px; }
-    .capital_worwp .rajdhani_main .rajdhani_item::before {
+    .capital_worwp .rajdhani_item::before {
       content: "";
       width: 1px;
       height: 100%;
       background: #e2e2e2;
       position: absolute;
       right: -12px; }
-    .capital_worwp .rajdhani_main .rajdhani_item .card {
+    .capital_worwp .rajdhani_item .card {
       border-radius: 0;
       border: 0; }
-      .capital_worwp .rajdhani_main .rajdhani_item .card .card-img-top {
+      .capital_worwp .rajdhani_item .card .card-img-top {
         border-radius: 0;
         height: 165px; }
-      .capital_worwp .rajdhani_main .rajdhani_item .card .card-body {
+      .capital_worwp .rajdhani_item .card .card-body {
         padding: 1rem 0; }
-        .capital_worwp .rajdhani_main .rajdhani_item .card .card-body .card-title {
+        .capital_worwp .rajdhani_item .card .card-body .card-title {
           color: #333;
           font-size: 16px;
           line-height: 1.5;
@@ -819,7 +830,7 @@ ul {
           overflow: hidden;
           -o-text-overflow: ellipsis;
           text-overflow: ellipsis; }
-        .capital_worwp .rajdhani_main .rajdhani_item .card .card-body .card-text {
+        .capital_worwp .rajdhani_item .card .card-body .card-text {
           color: #555;
           font-size: 14px;
           padding-bottom: 15px;
@@ -828,7 +839,97 @@ ul {
           overflow: hidden;
           -o-text-overflow: ellipsis;
           text-overflow: ellipsis; }
-        .capital_worwp .rajdhani_main .rajdhani_item .card .card-body .title_time {
+        .capital_worwp .rajdhani_item .card .card-body .title_time {
           font-size: 12px;
           color: #666;
           margin-bottom: 15px; }
+
+.contry_oll_worp {
+  margin-bottom: 200px; }
+  .contry_oll_worp .oll_country_item {
+    position: relative;
+    margin-bottom: 20px; }
+    .contry_oll_worp .oll_country_item::before {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background: #e2e2e2;
+      position: absolute;
+      right: -12px; }
+    .contry_oll_worp .oll_country_item .card {
+      border-radius: 0;
+      border: 0; }
+      .contry_oll_worp .oll_country_item .card .card-img-top {
+        border-radius: 0; }
+      .contry_oll_worp .oll_country_item .card .card-body {
+        padding: 1rem 0; }
+        .contry_oll_worp .oll_country_item .card .card-body .khulana_covid {
+          color: #1a237e;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          padding-bottom: 0;
+          font-size: 14px;
+          margin-bottom: 15px;
+          padding-top: 10px; }
+        .contry_oll_worp .oll_country_item .card .card-body .card-title {
+          color: #333;
+          font-size: 26px;
+          line-height: 1.5;
+          font-weight: 600;
+          margin-bottom: 15px; }
+        .contry_oll_worp .oll_country_item .card .card-body .card_title {
+          font-size: 20px;
+          font-weight: 500; }
+        .contry_oll_worp .oll_country_item .card .card-body .card-text {
+          color: #555;
+          font-size: 14px;
+          padding-bottom: 15px; }
+  .contry_oll_worp .caontry_side_items .card {
+    border-radius: 0;
+    border: 0; }
+    .contry_oll_worp .caontry_side_items .card .card-img-top {
+      border-radius: 0; }
+    .contry_oll_worp .caontry_side_items .card .card-body {
+      padding: 1rem 0; }
+      .contry_oll_worp .caontry_side_items .card .card-body .khulana_covid {
+        color: #1a237e;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding-bottom: 0;
+        font-size: 14px;
+        margin-bottom: 15px;
+        padding-top: 10px; }
+      .contry_oll_worp .caontry_side_items .card .card-body .card-title {
+        color: #333;
+        font-size: 26px;
+        line-height: 1.5;
+        font-weight: 600; }
+      .contry_oll_worp .caontry_side_items .card .card-body .card_title {
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: 1px solid #e2e2e2;
+        padding-bottom: 15px; }
+      .contry_oll_worp .caontry_side_items .card .card-body .card-text {
+        color: #555;
+        font-size: 14px;
+        padding-bottom: 15px; }
+  .contry_oll_worp .contry_part {
+    margin: 20px 0; }
+    .contry_oll_worp .contry_part .Rom_stories_main .Rom_stories_card .Rom_stories_sub {
+      color: #1a237e;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding-bottom: 0;
+      font-size: 14px;
+      margin-bottom: 0px;
+      padding-top: 10px; }
+    .contry_oll_worp .contry_part .Rom_stories_main .Rom_stories_card .Rom_stories_head {
+      line-height: 1.3;
+      font-size: 16px;
+      font-weight: 600;
+      color: #121212;
+      line-height: 1.3;
+      margin: 20px 0; }
