@@ -301,7 +301,7 @@ ul {
             color: #999;
             font-size: 15px; }
         .header .main_manu .printa_log .dropup .dropup-content {
-          bottom: 0;
+          bottom: -3px;
           right: -30px;
           padding: 1.2rem 2rem;
           width: 200px !important;
@@ -661,6 +661,14 @@ ul {
 
 .Stories_wrap {
   margin-bottom: 25px; }
+  .Stories_wrap .number_headlin_history .nav .nav-item .nav-link {
+    padding: 8px 0px;
+    margin-right: 16px;
+    color: #121212; }
+    .Stories_wrap .number_headlin_history .nav .nav-item .nav-link.active {
+      background-color: transparent;
+      border-bottom: 4px solid #f4511e;
+      border-radius: 0; }
   .Stories_wrap .main_stories a .card_stop_tital {
     color: #0099ff;
     font-size: 18px;

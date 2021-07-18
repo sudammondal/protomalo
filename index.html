@@ -424,56 +424,68 @@
     <div class="container ">
       <div class="row borderBTom">
         <div class="col-md-3">
-
           <div class="number_headlin_history">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-              </li>
-
-            </ul>
             
-            <div class="tab-content" id="pills-tabContent">
+            <div class="number_headlin_history">
 
-             
-              <h1>1</h1>
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                111111111111111111111 
-              </div>
-              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                222222222222222222222222222222
-              </div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                33333333333333333333333
-              </div>
+              <ul class="nav nav-pills mb-3">
+                <li class="nav-item">
+                  <button class=" nav-link active" onclick="button_1()" data-bs-toggle="pill"> সুখবর </button>
+                </li>
+                <li class="nav-item">
+                  <button class="tablinks nav-link" onclick="button_2()" data-bs-toggle="pill"> পঠিত</button>
+                </li>
+                <li class="nav-item">
+                  <button class="tablinks nav-link" onclick="button_3()" data-bs-toggle="pill"> আলোচিত </button>
+                </li>
+              </ul>
+              
 
-
-
-              <h1>2</h1>
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                111111111
+              <div class="Tab_items"> 
+                <h3 class="tab_head"> ১ </h3>
+                <div id="London" class="tabcontent ">
+                  <a href="#"><p class="tab_text"> সোমবার একবার মডার্নার আরও ৩০ টেড় টিকা </p></a> 
+                </div>
+                <div id="Paris" class="tabcontent ">
+                  <a href="#"><p class="tab_text"> ঈদের পর শিল্পকলকারখানা বন্ধ রেখে ‘সবচেয়ে কঠোর’ লকডাউন: প্রতিমন্ত্রী </p></a>
+                </div>
+                <div id="Tokyo" class="tabcontent ">
+                  <a href="#"><p class="tab_text"> ইভ্যালির চেয়ারম্যান ও এমডির দেশত্যাগে নিষেধাজ্ঞা </p></a>
+                </div> 
               </div>
-              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                222222222222222222222222222222
-              </div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                33333333333333333333333
+            
+              <div class="Tab_items"><h3 class="tab_head"> ২ </h3>
+                <div id="London1" class="tabcontent ">
+                  <a href="#"><p class="tab_text"> ৯ মাস পরে দর্শনের জন্য আইফেল হাওয়ার </p> </a>
+                </div>
+                <div id="Paris1" class="tabcontent ">
+                  <a href="#"><p class="tab_text"> ১০ ই – কমার্স বিকাশের কেনাকাটা বন্ধ </p> </a>
+                </div>
+                <div id="Tokyo1" class="tabcontent ">
+                  <a href="#"><p class="tab_text">ঈদের পর শিল্পকলকারখানা বন্ধ রেখে ‘সবচেয়ে কঠোর’ লকডাউন: প্রতিমন্ত্রী </p> </a>
+                </div>
               </div>
               
-            </div>
+              <div class="Tab_items"><h3 class="tab_head"> ৩ </h3>
+                <div id="London2" class="tabcontent Tab_items">
+                  <a href="#"><p class="tab_text"> পঞ্চাশ বছর ধরে পর্যবেক্ষণের সাথে এনজিওনে থাকুন </p></a>
+                </div>
+                <div id="Paris2" class="tabcontent Tab_items">
+                  <a href="#"><p class="tab_text"> ইভেন্ট ক্যালিফোর্নিয়া এবং এমডির দেশত্যাগের সমীক্ষা </p></a>
+                </div>
+                <div id="Tokyo2" class="tabcontent Tab_items">
+                  <a href="#"><p class="tab_text">১০ ই – কমার্স বিকাশের কেনাকাটা বন্ধ </p></a>
+                </div>
+              </div>
+              
 
+            </div>
 
           </div>
 
         </div>
         <div class="col-md-9">
+
           <div class="main_stories">
             <div class="row">
               <div class="col-md-8">
@@ -577,6 +589,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -728,41 +741,85 @@
   </section>
 
   
+
+  
+  
   
     
-
-    <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-      </li>
-    </ul>
-    <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-    </div>
-     -->
-
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("Header").style.top = "0";
-        } else {
-          document.getElementById("Header").style.top = "-108px";
-        }
-        prevScrollpos = currentScrollPos;
-      }
-    </script>   
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("Header").style.top = "0";
+    } else {
+      document.getElementById("Header").style.top = "-108px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+
+
+      
+  function showhide() {
+    var x = document.querySelectorAll("#London");
+    var i;
+    if ($("#Paris") === "block" || $("#London")==="block") {
+      $("#Paris").hide();
+      $("#London").hide();
+      $("#Tokyo").show();
+      } else {
+        $("#Paris").show();
+      $("#London").show();
+      $("#Tokyo").hide();
+    }
+  }
+
+function button_1(){
+
+  $('#London').show();
+  $('#London1').show();
+  $('#London2').show();
+
+  $('#Paris').hide();
+  $('#Paris1').hide();
+  $('#Paris2').hide();
+
+  $('#Tokyo').hide();
+  $('#Tokyo1').hide();
+  $('#Tokyo2').hide();
+}
+
+function button_2(){
+  $('#Paris').show();
+  $('#Paris1').show();
+  $('#Paris2').show();
+
+  $('#Tokyo').hide();
+  $('#Tokyo1').hide();
+  $('#Tokyo2').hide();
+
+  $('#London').hide();
+  $('#London1').hide();
+  $('#London2').hide();
+}
+function button_3(){
+  $('#Tokyo').show();
+  $('#Tokyo1').show();
+  $('#Tokyo2').show();
+
+  $('#Paris').hide();
+  $('#Paris1').hide();
+  $('#Paris2').hide();
+
+  
+  $('#London').hide();
+  $('#London1').hide();
+  $('#London2').hide();
+}
+</script>
+
 </body>
 </html>

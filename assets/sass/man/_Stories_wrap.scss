@@ -1,5 +1,38 @@
 .Stories_wrap {
-     margin-bottom: 25px;
+    margin-bottom: 25px;
+
+    .number_headlin_history {
+        .nav {
+            .nav-item {
+                .nav-link {
+                    
+                    padding: 8px 0px;
+                    margin-right: 16px;
+                    color: #121212;
+                    &.active { 
+                        background-color: transparent;
+                        border-bottom: 4px solid #f4511e;
+                        border-radius: 0;
+                    }
+                }
+                
+                
+            } 
+           
+        }
+        .Tab_items {
+            .tab_head {
+
+            }
+            .tabcontent {
+
+                .tab_text {
+
+                }
+            }
+        }
+        
+    }
     .main_stories {
         a {
             .card_stop_tital {
