@@ -661,14 +661,30 @@ ul {
 
 .Stories_wrap {
   margin-bottom: 25px; }
-  .Stories_wrap .number_headlin_history .nav .nav-item .nav-link {
-    padding: 8px 0px;
-    margin-right: 16px;
-    color: #121212; }
-    .Stories_wrap .number_headlin_history .nav .nav-item .nav-link.active {
-      background-color: transparent;
-      border-bottom: 4px solid #f4511e;
-      border-radius: 0; }
+  .Stories_wrap .number_headlin_history .nav {
+    margin-bottom: -2px; }
+    .Stories_wrap .number_headlin_history .nav .nav-item .nav-link {
+      padding: 8px 0px;
+      margin-right: 16px;
+      color: #121212; }
+      .Stories_wrap .number_headlin_history .nav .nav-item .nav-link.active {
+        background-color: transparent;
+        border-bottom: 4px solid #f4511e;
+        border-radius: 0; }
+  .Stories_wrap .number_headlin_history .Tab_items {
+    padding: 15px 0;
+    border-top: 1px solid #ccc; }
+    .Stories_wrap .number_headlin_history .Tab_items .tab_head {
+      line-height: 1.17;
+      color: #ccc;
+      font-weight: 700;
+      font-size: 40px;
+      margin: 0 10px; }
+    .Stories_wrap .number_headlin_history .Tab_items .tabcontent .tab_text {
+      line-height: 1.44;
+      font-size: 15px;
+      color: #333;
+      margin: 15px 0 8px 0; }
   .Stories_wrap .main_stories a .card_stop_tital {
     color: #0099ff;
     font-size: 18px;

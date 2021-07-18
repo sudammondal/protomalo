@@ -3,6 +3,7 @@
 
     .number_headlin_history {
         .nav {
+            margin-bottom: -2px;
             .nav-item {
                 .nav-link {
                     
@@ -21,13 +22,22 @@
            
         }
         .Tab_items {
+            padding: 15px 0;
+            border-top: 1px solid #ccc;
             .tab_head {
-
+                line-height: 1.17;
+                color: #ccc;
+                font-weight: 700;
+                font-size: 40px;
+                margin: 0 10px;
             }
             .tabcontent {
 
                 .tab_text {
-
+                    line-height: 1.44;
+                    font-size: 15px;
+                    color: #333;
+                    margin: 15px 0 8px 0;
                 }
             }
         }
