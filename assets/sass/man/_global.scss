@@ -66,6 +66,17 @@ ul {
     }
  
 }
+.boredr_Right {
+    position: relative;
+    &::before {
+        content: "";
+        width: 1px;
+        height: 100%;
+        background: #e2e2e2;
+        position: absolute;
+        right: -15px;
+    }
+}
 .borderBTom {
     position: relative;
     &::before{
@@ -86,7 +97,7 @@ ul {
 .divider {
     border-bottom: 1px solid #000;
 }
-.rajdhani_head {
+.wraper_hadding {
     font-size: 16px;
     font-weight: 600;
     color: #121212;

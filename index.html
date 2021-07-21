@@ -7,6 +7,8 @@
   <title>protomalo</title>
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
   <link rel="stylesheet" href="./assets/css/font400/ShurjoWeb_400_v2-6a682f6f610beeda14f0.woff2">
   <link rel="stylesheet" href="./assets/css/font400/ShurjoWeb_400_v2-f516035cb806da4a249e.woff">
   <link rel="stylesheet" href="./assets/css/font400/font400/ShurjoWeb_400_v2-46e441a492e5db01a626.ttf">
@@ -599,7 +601,7 @@
     <div class="container ">
       <div class="row borderBTom">
         <div class="col-md-12">
-          <a href="#"><h3 class="rajdhani_head"> রাজধানী </h3></a>
+          <a href="#"><h3 class="wraper_hadding"> রাজধানী </h3></a>
         </div>
         <div class="col-md-3">
             <div class="rajdhani_item">
@@ -657,7 +659,7 @@
     <div class="container ">
       <div class="row borderBTom">
         <div class="col-md-12">
-          <a href="#"><h3 class="rajdhani_head"> সারা দেশ </h3></a>
+          <a href="#"><h3 class="wraper_hadding"> সারা দেশ </h3></a>
         </div>
         <div class="col-md-9">
           <div class="row borderBTom ">
@@ -666,7 +668,7 @@
                 <div class="card">
                   <img src="./assets/imgs/khulana_covit.jpg" class="card-img-top img-fluid" alt="img">
                   <div class="card-body">
-                    <p class="khulana_covid">খুলনায় করোনার চিকিৎসা</p>
+                    <p class="khulana_covid"> খুলনায় করোনার চিকিৎসা </p>
                     <h5 class="card-title"> নতুন প্ল্যান্ট চালু না হওয়ায় অক্সিজেন সরবরাহ নিয়ে শঙ্কা </h5>
                     <p class="card-text">প্ল্যান্ট চালু করতে না পারায় একদিকে রোগীদের নিরবিচ্ছিন্ন অক্সিজেন সেবা নিয়ে ভাবনা যেমন বাড়ছে, তেমনি শয্যা বাড়ানোর প্রক্রিয়াও অনেকটা থমকে গেছে।</p>
                   </div>
@@ -732,96 +734,297 @@
               </div>
             </div>
           </div>
-         
-         
         </div>
+
         <div class="col-md-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam repudiandae doloremque illum omnis consequatur eius dolorem sunt itaque aut natus nesciunt, laboriosam optio molestias quo labore distinctio sit? Corporis consequatur earum laborum deleniti cupiditate harum accusantium eaque fugiat minus animi odit beatae ea neque quasi inventore, nostrum sint officia. Distinctio, reprehenderit fuga molestiae iste dolore repellat officiis quas velit fugit cumque ex molestias beatae iure accusamus blanditiis voluptatibus ipsum! Voluptatum aliquam tenetur, dolores id, animi nihil dolorem vel mollitia rerum eaque saepe distinctio. Eius quasi dolor deserunt molestias? Nulla iure non ducimus eligendi atque? Aliquam sed nemo atque dicta nobis magni sequi facilis blanditiis nisi ea veritatis at, eius quos! Ea saepe ducimus fugiat error possimus eius iure debitis neque. Soluta porro delectus beatae hic enim quo nostrum cupiditate quibusdam expedita tenetur assumenda nulla maiores iste saepe possimus, eveniet, incidunt libero. Eius necessitatibus maiores repellat itaque, doloribus recusandae dolorem reprehenderit expedita similique unde accusantium nobis mollitia minima in perspiciatis repellendus id quibusdam! Quia, repellendus. Natus vel dolores in a soluta ut similique, sed accusamus, reprehenderit rem aliquid quisquam ducimus adipisci autem. Fuga repellat maxime nesciunt totam, sit debitis corrupti est, veniam neque eveniet cumque deserunt iste perspiciatis. Laudantium, corrupti suscipit!
+          <div class="organism_item">
+            <h4 class="head_line" > আমার এলাকার খবর </h4>
+
+            <select class="form-select" aria-label="Default select example">
+              <option selected class="active-dropdown"> বিভাগ </option>
+              <option value="1"> ঢাকা </option>
+              <option value="2"> চট্টগ্রাম </option>
+              <option value="4"> রাজশাহী </option>
+              <option value="5"> খুলনা </option>
+              <option value="6"> বরিশাল </option>
+              <option value="7"> সিলেট </option>
+              <option value="8"> রংপুর </option>
+              <option value="9"> ময়মনসিংহ </option>
+            </select>
+            <select class="form-select" aria-label="Default select example">
+              <option selected class="active-dropdown"> জেলা </option>
+              <option value="1"> মাগুরা </option>
+              <option value="2"> ঝিনাইদহ </option>
+              <option value="3"> বাগেরহাট </option>
+              <option value="4"> সাতক্ষীরা </option>
+              <option value="5"> মেহেরপুর </option>
+              <option value="6"> যশোর </option>
+              <option value="7"> খুলনা </option>
+              <option value="8"> কুষ্টিয়া </option>
+              <option value="9"> চুয়াডাঙ্গা </option>
+              <option value="10"> নড়াইল </option>
+            </select>
+            <select class="form-select" aria-label="Default select example">
+              <option selected class="active-dropdown"> উপজেলা </option>
+              <option value="1"> আশাশুনি </option>
+              <option value="2"> তালা </option>
+              <option value="3"> দেবহাটা </option>
+              <option value="4"> শ্যামনগর </option>
+              <option value="5"> সাতক্ষীরা সদর </option>
+              <option value="7"> কালীগঞ্জ </option>
+              <option value="8"> কলারোয়া </option>
+            </select>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">
+                <i class="fas fa-search"></i> খুঁজুন 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="wold_worap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a href="#"><h3 class="wraper_hadding"> বিশ্ব </h3></a>
+        </div>
+      
+      <div class="wrapper borderBTom">
+        <div class="world_item">
+          <div class="card card_wold">
+            <img src="./assets/imgs/wold_computer.jpg" class="card-img-top" alt="imgs">
+            <div class="card-body ">
+              <h3 class="card_text_head"> মরক্কোর বিরুদ্ধে ফরাসি সাংবাদিকদের ফোনে আড়ি পাতার অভিযোগ, তদন্তের ঘোষণা </h3>
+              <p class="card-text"> ফ্রান্সের ওয়েবসাইট মিডিয়াপার্ট গত সোমবার এ বিষয়ে মরক্কোর গোয়েন্দা সংস্থার বিরুদ্ধে আনুষ্ঠানিক অভিযোগ এনেছে। মিডিয়াপার্টের অভিযোগ, প্রতিষ্ঠানটির প্রতিষ্ঠাতা এডওয়ে প্লেনেল ও অপর এক সাংবাদিকের ফোনে আড়ি ... </p>
+              <span class="wold_upedat"> ১ ঘণ্টা আগে </span>
+            </div>
+          </div>
+          
+        </div>
+        <div class="world_item">
+          <div class="costom_story_items">
+            <div distory_items">
+              <img src="./assets/imgs/afganistan.jpg" class="img-fluid " alt="img">
+            </div>
+            <div class="story_items">
+              <div class="card-body">
+                <h5 class="card-title">আফগান প্রেসিডেন্টের ঈদের নামাজের সময় প্রাসাদের কাছে হামলা</h5>
+                <p class="card-text">স্থানীয় সময় আজ মঙ্গলবার সকাল আটটায় প্রেসিডেন্ট আশরাফ গনিসহ অন্যরা ঈদুল আজহার নামাজ পড়ছিলেন। তখন প্রাসাদের পাশেই পর পর তিনবার রকেট হামলা চালানো হয়। তাৎক্ষণিকভাবে কেউ এই হামলার দায় স্বীকার করেনি।</p>
+                <span class="costom_upedat"> ২ ঘণ্টা আগে </span>
+              </div>
+            </div>
+          </div>
+          <div class="costom_story_items ">
+            <div class="story_items">
+              <img src="./assets/imgs/prothomalo-bangla_Zuma.jpg" class="img-fluid " alt="img">
+            </div>
+            <div class="story_items">
+              <div class="card-body">
+                <h5 class="card-title"> জ্যাকব জুমার মামলার শুনানি আবার পেছাল </h5>
+                <p class="card-text"> গতকাল সোমবার জুমার মামলার শুনানি শুরু হয়। এতে ভার্চ্যুয়ালি অংশ নেন জুমা। আজ শুনানি শেষে বিচারক পিয়েত কোয়েন জানান, শুনানি আপাতত স্থগিত থাকছে। ১০ থেকে ১৩ আগস্ট </p>
+                <span class="costom_upedat"> ১ ঘণ্টা আগে </span>
+              </div>
+            </div>
+          </div>
+          <div class="costom_story_items border-bottom-0">
+            <div class="story_items">
+              <img src="./assets/imgs/prothomalo-bangla_Bezos.jpg" class="img-fluid" alt="img">
+            </div>
+            <div class="story_items">
+              <div class="card-body">
+                <h5 class="card-title"> মহাকাশের উদ্দেশে যাত্রা জেফ বেজোসের </h5>
+                <p class="card-text"> উৎক্ষেপণের পর প্রায় ৭৬ কিলোমিটার গিয়ে তাঁদের বহনকারী ক্যাপসুলটি রকেট থেকে আলাদা হবে। পরে উৎক্ষেপণ কেন্দ্র থেকে ২ মাইল দূরে রকেটটি নেমে আসবে। আর ক্যাপসুলটি তাঁদের নি ... </p>
+                <span class="costom_upedat"> ৩ ঘণ্টা আগে </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <section class="game_worap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a href="#"><h3 class="wraper_hadding"> খেলা </h3></a>
+        </div>
+        <div class="wrapper games borderBTom">
+          <div class="world_item">
+            <div class="card card_wold">
+              <img src="./assets/imgs/prothomalo-bangla_olinpic_johir1.jpg" class="card-img-top" alt="imgs">
+              <div class="card-body ">
+                <h3 class="card_text_head"> অলিম্পিক কি আর ঈদ মানে! </h3>
+                <p class="card-text"> ওয়াইল্ড কার্ড পেয়ে প্রথমবারের মতো অলিম্পিকে খেলার সুযোগ পেয়েছেন জহির রায়হান। তবে শুধু নামমাত্র অংশগ্রহণের আশা নিয়ে বসে নেই বাংলাদেশের এই অ্যাথলেট। নিজেকে ছাপিয়ে যাওয়ার জন্য কঠোর পরিশ্রম করছেন।  </p>
+                <span class="wold_upedat"> ৯ মিনিট আগে </span>
+              </div>
+
+              <div class="costom_story_items border-top border-bottom-0 pt-3">
+                <div class="story_items">
+                  <img src="./assets/imgs/prothomalo-bangla_foodballar.jpg" class="img-fluid" alt="img">
+                </div>
+                <div class="story_items ">
+                  <div class="card-body padding-x">
+                    <p class="game_sub_title"> ছবিতে ছবিতে ফুটবলারদের ঈদের গল্প  </p>
+                    <h5 class="card-title"> ক্লাবই পরিবার, ক্লাবেই তাঁদের ঈদ </h5>
+                    <p class="card-text mb-0"> ক্লাবগুলো থেকে ছুটি পাননি খেলোয়াড়েরা। বেশ কয়েকটি ক্লাব... </p>
+                    <span class="costom_upedat"> ৩ ঘণ্টা আগে </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="world_item boredr_Right">
+            <div class="costom_story_items">
+              <div distory_items">
+                <img src="./assets/imgs/pakistan_vs_sreelanka.jpg" class="img-fluid " alt="img">
+              </div>
+              <div class="story_items">
+                <div class="card-body">
+                  <p class="game_sub_title"> পাকিস্তান-ইংল্যান্ড টি-টোয়েন্টি  </p>
+                  <h5 class="card-title"> পাকিস্তানকে হারানোর পর ব্রডের ভবিষ্যদ্বাণী, ইংল্যান্ড বিশ্বকাপ জিতবে  </h5>
+                  <p class="card-text"> ইংল্যান্ড ওল্ড ট্রাফোর্ডে শক্তিশালী পাকিস্তানকে হারিয়ে তিন ম্যাচ টি-...<p> 
+                </div>
+              </div>
+            </div>
+            <div class="costom_story_items ">
+              <div class="story_items">
+                <img src="./assets/imgs//sreelanka_vs_india.jpg" class="img-fluid " alt="img">
+              </div>
+              <div class="story_items">
+                <div class="card-body">
+                  <p class="game_sub_title"> ভারত-শ্রীলঙ্কা দ্বিতীয় ওয়ানডে  </p>
+                  <h5 class="card-title"> এবার ভারতের ‘ধোনি’ হলেন চাহার </h5>
+                  <p class="card-text"> প্রথম ম্যাচের চেয়ে দ্বিতীয় ম্যাচে শ্রীলঙ্কা আরেকটু বেশি প্রতিদ্বন্দ্বীতা...</p>
+                </div>
+              </div>
+            </div>
+            <div class="costom_story_items ">
+              <div class="story_items">
+                <img src="./assets/imgs/takinic_olinpic.jpg" class="img-fluid " alt="img">
+              </div>
+              <div class="story_items">
+                <div class="card-body">
+                  <h5 class="card-title"> টোকিও অলিম্পিকে জয় দিয়ে শুরু করল জাপান</h5>
+                  <p class="card-text"> ফুকুশিমার মানুষ অলিম্পিকের প্রথম খেলার নিজেদের শহরে আগমনের...</p>
+                </div>
+              </div>
+            </div>
+            <div class="costom_story_items border-bottom-0">
+              <div class="story_items">
+                <img src="./assets/imgs/prothomalo-bangla_winner_bngla.jpg" class="img-fluid" alt="img">
+              </div>
+              <div class="story_items">
+                <div class="card-body">
+                  <p class="game_sub_title"> বললেন তামিম ইকবাল  </p>
+                  <h5 class="card-title"> ব্যাটিংয়ে এক জায়গার জন্য লড়ছে দু-তিনজন </h5>
+                  <p class="card-text"> অভিজ্ঞ মুশফিকুর রহিম না থাকায় মিডল অর্ডারে জায়গা পাকা করার... </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="world_item">
+            <div class="world_slider_items">
+              <div class="sliderItem">
+                <div class="card">
+                  <img src="./assets/imgs/fokrul.webp" class="card-img-top slaidImgs img-fluid" alt="imgs">
+                  <div class="card-body">
+                    <p class="card-text">২০–দলীয় জোটের শরিক জমিয়তে উলামায়ে ইসলাম সরকারের চাপে জোট ছেড়েছে, মির্জা ফখরুল ইসলামের এই অভিযোগ যৌক্তিক মনে করেন কি?</p>
+                    <div class="chack_box_item">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          হ্যাঁ
+                        </label>
+                        <span class="vot_chack"> 83% </span>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          না
+                        </label>
+                        <span class="vot_chack"> 83% </span>
+                      </div>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                        মন্তব্য নেই
+                        </label>
+                        <span class="vot_chack"> 83% </span>
+                      </div>
+                    </div>
+
+                    <button class="btn btn-primary "> vote </button>
+                  </div> 
+                  <div class="shear_btn">
+                      <button class="btn btn-primary btn_shear"><i class="far fa-share-alt"></i> share </button>
+                      <button class="btn btn-primary btn_embet "><i class="fas fa-code"></i> embed </button> 
+                    </div>
+                </div>
+              </div>
+
+              <div class="sliderItem">
+                <div class="card">
+                  <img src="./assets/imgs/tee_garden.webp" class="card-img-top slaidImgs img-fluid" alt="imgs">
+                  <div class="card-body">
+                    <p class="card-text"> ঈদের পর দুই সপ্তাহের কঠোর বিধিনিষেধে চা-কারখানা ও বাগান খোলা রাখার দাবি যৌক্তিক বলে মনে করেন কি? </p>
+                    <div class="chack_box_item">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          হ্যাঁ
+                        </label>
+                        <span class="vot_chack"> 83% </span>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          না
+                        </label>
+                        <span class="vot_chack"> 83% </span>
+                      </div>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                        মন্তব্য নেই
+                        </label>
+                        <span class="vot_chack"> 83% </span>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary "> vote </button>
+                  </div> 
+                  <div class="shear_btn">
+                      <button class="btn btn-primary  btn_shear"><i class="far fa-share-alt"></i> share </button>
+                      <button class="btn btn-primary btn_embet"><i class="fas fa-code"></i> embed </button> 
+                    </div>
+                </div>
+
+              </div>
+             
+                
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   
-
-  
-  
+ 
   
     
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
-    <script>
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("Header").style.top = "0";
-    } else {
-      document.getElementById("Header").style.top = "-108px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
-
-
-      
-  function showhide() {
-    var x = document.querySelectorAll("#London");
-    var i;
-    if ($("#Paris") === "block" || $("#London")==="block") {
-      $("#Paris").hide();
-      $("#London").hide();
-      $("#Tokyo").show();
-      } else {
-        $("#Paris").show();
-      $("#London").show();
-      $("#Tokyo").hide();
-    }
-  }
-
-function button_1(){
-
-  $('#London').show();
-  $('#London1').show();
-  $('#London2').show();
-
-  $('#Paris').hide();
-  $('#Paris1').hide();
-  $('#Paris2').hide();
-
-  $('#Tokyo').hide();
-  $('#Tokyo1').hide();
-  $('#Tokyo2').hide();
-}
-
-function button_2(){
-  $('#Paris').show();
-  $('#Paris1').show();
-  $('#Paris2').show();
-
-  $('#Tokyo').hide();
-  $('#Tokyo1').hide();
-  $('#Tokyo2').hide();
-
-  $('#London').hide();
-  $('#London1').hide();
-  $('#London2').hide();
-}
-function button_3(){
-  $('#Tokyo').show();
-  $('#Tokyo1').show();
-  $('#Tokyo2').show();
-
-  $('#Paris').hide();
-  $('#Paris1').hide();
-  $('#Paris2').hide();
-
-  
-  $('#London').hide();
-  $('#London1').hide();
-  $('#London2').hide();
-}
-</script>
+   
 
 </body>
 </html>
