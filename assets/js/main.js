@@ -84,8 +84,8 @@ window.onscroll = function() {
       infinite: false,
       speed: 300,
       slidesToShow: 1,
-      centerMode: true,
-      // autoplay: true,
-      variableWidth: true
+      centerMode: false,
+      autoplay: false,
+      variableWidth: false
     });
   });

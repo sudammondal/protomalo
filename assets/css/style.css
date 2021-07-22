@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap");
 * {
@@ -96,7 +97,6 @@ ul {
     position: absolute;
     top: 0;
     color: #f4511e;
-    font-size: 15px;
     right: -15px;
     font-size: 17px; }
 
@@ -1128,6 +1128,8 @@ ul {
         margin: 0 8px; }
         .game_worap .games .world_item .world_slider_items .sliderItem .card .slaidImgs {
           border-radius: 0; }
+        .game_worap .games .world_item .world_slider_items .sliderItem .card .slider_img {
+          height: 158px; }
         .game_worap .games .world_item .world_slider_items .sliderItem .card .card-body .card-text {
           font-size: 14px;
           margin: 0 0 .3em;
@@ -1148,13 +1150,17 @@ ul {
           margin-bottom: 30px; }
         .game_worap .games .world_item .world_slider_items .sliderItem .card .chack_box_item .form-check {
           position: relative;
-          background-color: #e8f1f7d4;
-          margin: 30px 0;
-          padding: 5px 35px;
-          border-radius: 5px; }
+          background-color: #bbcfdc36;
+          margin: 10px 0;
+          padding: 5px 36px;
+          border-radius: 5px;
+          overflow: hidden; }
+          .game_worap .games .world_item .world_slider_items .sliderItem .card .chack_box_item .form-check .form-check-input {
+            cursor: pointer; }
           .game_worap .games .world_item .world_slider_items .sliderItem .card .chack_box_item .form-check .form-check-label {
             color: #4c4c4c;
-            font-size: 14px; }
+            font-size: 14px;
+            cursor: pointer; }
           .game_worap .games .world_item .world_slider_items .sliderItem .card .chack_box_item .form-check .vot_chack {
             position: absolute;
             right: 6px;
@@ -1215,3 +1221,62 @@ ul {
 .slick-list {
   width: 394px;
   padding-left: 0px !important; }
+
+.slick-prev {
+  background: #0072ff85;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 100 !important; }
+
+.slick-arrow {
+  background: #0072ff85;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 100 !important; }
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: #0072ff85 !important; }
+
+.slick-prev:focus, .slick-next:focus {
+  color: transparent !important;
+  outline: none;
+  background: transparent !important; }
+
+.slick-disabled {
+  display: none !important; }
+
+.slick-prev {
+  left: 15px !important;
+  top: 44% !important; }
+
+.slick-next {
+  right: 7px !important;
+  top: 44% !important; }
+
+.slick-prev:before {
+  content: '←'; }
+
+.slick-next {
+  right: 7px !important;
+  top: 44% !important; }
+  .slick-next:before {
+    content: '\f054';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900; }
+
+.slick-prev:before {
+  content: '\f053';
+  font-family: 'Font Awesome 5 free';
+  font-weight: 900; }
+
+.slick-dots li button::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: #0099ff;
+  border-radius: 50%; }
