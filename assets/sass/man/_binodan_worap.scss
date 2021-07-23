@@ -1,11 +1,8 @@
-
-//=========== buzness css, wold_worap css, game_worap css, jibonjapom css =========//
-.wold_worap,
-.game_worap {
+.binodan_worap {
     margin-bottom: 30px;
     .wrapper {
         display: grid;
-        grid-template-columns: 6fr 6fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
         .card_wold {
             border: 0;
@@ -19,15 +16,13 @@
                 position: absolute;
                 right: -15px;
             }
-            .card-img-top {
-               border-radius: 0;
-            }
+           
             .card-body {
                 border-radius: 0;
                 padding: 20px 0;
                 .card_text_head {
                     color: #121212;
-                    font-size: 20px;
+                    font-size: 22px;
                     font-weight: 600;
                     margin-bottom: 15px;
                     line-height: 1.36;
@@ -45,8 +40,10 @@
                     line-height: 1.7;
                 }
             }
+           
         }
         .world_item {
+            margin-bottom: 15px;
             .costom_story_items {
                 display: grid;
                 grid-template-columns: 4fr 8fr;
@@ -57,10 +54,17 @@
                     padding-bottom: 15px;
                     .card-body {
                         padding: 0;
+                        .sub_title {
+                            color: #1a237e;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
                         .card-title{    
                             line-height: 1.3;
                             font-size: 18px;
-                            font-weight: 600;
+                            font-weight: 500;
                             margin-bottom: 8px;
                             line-height: 1.36;
                             color: #121212;

@@ -40,6 +40,13 @@ ul {
         padding-right: 16px;
     }
 }
+@media screen and (min-width: 1280px) {
+    .container_ctm {
+        max-width: 1140px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
 
 .border_left {
     position: relative;

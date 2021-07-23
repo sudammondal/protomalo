@@ -1,5 +1,5 @@
 .game_worap {
-    margin-bottom: 300px;
+    margin-bottom: 30px;
     .games {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -206,7 +206,8 @@
                 width: 10px;
                 height: 10px;
                 background: #0099ff;
-                border-radius: 50%;
+                border-radius: 50%; 
+                color: transparent !important;
                 
             }
         }
