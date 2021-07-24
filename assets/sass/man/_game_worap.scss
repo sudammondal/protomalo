@@ -130,23 +130,27 @@
 
                     }
                 }
-            }
-        }
-    }
-}
-
-//========slick slider css=======//
-.slick-list {
-    width: 394px;
-    padding-left: 0px !important; 
-}
-.slick-prev { 
+                .slick-prev { 
     background: #0072ff85;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     z-index: 100 !important;
 } 
+                .slick-list {
+                    width: 394px;
+                    padding-left: 0px !important; 
+                }
+
+
+            }
+        }
+    }
+}
+
+//========slick slider css=======//
+
+
 .slick-arrow {
     background: #0072ff85;
     border-radius: 50%;

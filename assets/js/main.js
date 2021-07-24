@@ -89,3 +89,12 @@ window.onscroll = function() {
       variableWidth: false
     });
   });
+  $(document).ready(function(){
+    $('.ficture_main').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      infinite: false,
+    });
+  });
