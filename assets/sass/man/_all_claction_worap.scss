@@ -1,0 +1,48 @@
+.all_claction_worap {
+    margin-bottom: 30px;
+    .row_clection {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+
+        .all_items {
+            margin-bottom: 30px;
+            .card {
+                border: 0;
+                .card-body {
+                    padding: 15px 0px;
+                    border-bottom: 1px solid #ddd;
+                    margin-bottom: 5px;
+                    .card-img-top {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    
+                    .card-title {    
+                        margin: 0;
+                        color: #121212;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 1.76;
+                    } 
+                }
+                .list-group {
+                    .list-group-item {
+                        padding: 8px 0px;
+                        color: #121212;
+                        font-weight: 400;
+                        line-height: 1.7;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+    }
+}
