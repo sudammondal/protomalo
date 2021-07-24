@@ -7,10 +7,18 @@
                 padding-bottom: 30px;
                 margin-bottom: 30px;
                 border-bottom: 1px solid #e2e2e2;
+                cursor: pointer;
                 .stories_main {
                     position: relative;
                     min-height: 453px;
                     height: 100%;
+                    
+                    overflow: hidden;
+                    &:hover {
+                        .stories_img { 
+                            transform: scale(1.1);  
+                        }
+                    }
                     .stories_img {
                         position: absolute;
                         top: 0;
@@ -20,6 +28,7 @@
                         height: 100%;
                         width: 100%;
                         object-fit: cover;
+                        transition: all 0.3s ease;
                     }
                     &::after {
                         background-image: linear-gradient(180deg, transparent, transparent 33%,#000);
