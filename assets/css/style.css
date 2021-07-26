@@ -1612,6 +1612,25 @@ ul {
         right: 0;
         top: 0;
         bottom: 0; }
+      .img_wrorap .photo_tory .photi_items .img_icon {
+        position: absolute;
+        top: 5px;
+        left: 15px;
+        background-color: #ffffffc4;
+        color: #333;
+        border-radius: 50%;
+        width: 40px;
+        font-size: 20px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
       .img_wrorap .photo_tory .photi_items .stories_img {
         height: 100%; }
       .img_wrorap .photo_tory .photi_items .stories_card {

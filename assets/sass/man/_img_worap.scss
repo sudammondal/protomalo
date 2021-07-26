@@ -16,6 +16,20 @@
                 top: 0;
                 bottom: 0;
             }
+            .img_icon {
+                position: absolute;
+                top: 5px;
+                left: 15px;
+                background-color: #ffffffc4;
+                color: #333;
+                border-radius: 50%;
+                width: 40px;
+                font-size: 20px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
             .stories_img {
                 height: 100%;
             }
