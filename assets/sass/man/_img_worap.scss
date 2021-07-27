@@ -7,6 +7,11 @@
         grid-gap: 20px;
         .photi_items {
             position: relative;
+            cursor: pointer;
+            a {
+                display: block;
+            }
+            
             &::after {
                 background-image: linear-gradient(180deg, transparent, transparent 33%,#000);
                 content: " ";

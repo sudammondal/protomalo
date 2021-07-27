@@ -1,0 +1,37 @@
+.vedio_worap {
+    .vedio_main_item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        // background-color: #121212;
+        .vedio_title {
+            .vedio_text { 
+
+            }
+        }
+        .vedioItem{
+
+        }
+    }
+    .vedio_seckend_item {
+        display: grid;
+        grid-template-columns: repeat(4,3fr);
+        grid-column-gap: 15px;
+        overflow: hidden;
+        scroll-snap-type: none;
+        .vedios_itm {
+            flex-direction: column;
+            justify-content: normal;
+            width: 100%;
+            margin-right: 0;
+            display: flex;
+            text-align: left;
+            scroll-snap-align: start;
+            flex: none;
+            background-color:#000;
+        }
+        .vedioItem {
+            
+
+        }
+    }
+}
