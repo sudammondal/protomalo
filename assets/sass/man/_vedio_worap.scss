@@ -1,21 +1,50 @@
 .vedio_worap {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    background-color: #222;
+    .ctm_color {
+        color: #fff;
+        margin-bottom: 15px 0 20px 0;
+    }
     .vedio_main_item {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        // background-color: #121212;
+        background-color: #121212;
+        margin-bottom: 20px;
         .vedio_title {
+            padding: 47px 25px;
             .vedio_text { 
-
+                line-height: 1.36;
+                font-size: 22px;
+                font-weight: 700;
+                color: #fff;
+            }
+            .updeat_vedio {
+                color: #999;
+                font-size: 14px;
+                margin-bottom: 5px;
+                line-height: 1.7;
             }
         }
-        .vedioItem{
+        .vedioItem {
+            position: relative;
+            .vedio_player {
+                display: inline-block;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                svg {
+                    width: 70px;
+                    height: 70px; 
+                }
+            }
 
         }
     }
     .vedio_seckend_item {
         display: grid;
         grid-template-columns: repeat(4,3fr);
-        grid-column-gap: 15px;
+        grid-column-gap: 20px;
         overflow: hidden;
         scroll-snap-type: none;
         .vedios_itm {
@@ -28,10 +57,34 @@
             scroll-snap-align: start;
             flex: none;
             background-color:#000;
-        }
-        .vedioItem {
-            
+            .vedioItem {
+                position: relative;
+                .vedio_player_items {
+                    display: inline-block;
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                    svg {
+                        width: 50px;
+                        height: 50px; 
+                    }
+                }
+            }
+            .vedio_title {
+                padding: 20px 15px;
+                .vedio_text {
+                    line-height: 1.36;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #fff;
+                    padding-top: 5px;
+                    margin-bottom: 0;
+    
+                }
+                
+            }
 
         }
+        
     }
 }
