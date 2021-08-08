@@ -9,7 +9,7 @@
     .main_manu {
         display: flex;
         padding: 8px;
-        .humburgar_search{
+        .humburgar_search {
           margin-right: auto;
           .barger_btn {
             position: relative;
@@ -42,6 +42,7 @@
             margin-left: 26px;
           }
           .sidenav {
+            display: inline-block;
             height: 100%;
             width: 0;
             position: fixed;
@@ -52,6 +53,7 @@
             overflow-x: hidden;
             transition: 0.5s;
             padding: 15px 0;
+            box-shadow: 7px 0px 6px 0px #00000026;
             .humburger_list{
               border-bottom: 1px solid #ddd;
               margin: 0 43px;

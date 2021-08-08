@@ -1,4 +1,47 @@
 //============== img_worap  ==============//
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {  }
+
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+    .header {
+        .container {
+            max-width: 1055px;
+            margin: 0 auto;
+        }
+        .main_manu {
+            .humburgar_search {
+                .sidenav {
+                    .humburger_list {
+                        .closebtn {
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {  }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {  }
+
+
+
+
+
+
+
 @media (min-width: 876px) {
    
     .img_wrorap { 
