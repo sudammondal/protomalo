@@ -680,12 +680,14 @@ ul {
       -ms-grid-row-span: 1;
       grid-row: 1/2;
       position: relative; }
-      .home_wraper .banner_main .main_addblog .main_sid .main_items .siedbara_img .img_fluid {
-        width: 100%;
-        height: 150px; }
+      .home_wraper .banner_main .main_addblog .main_sid .main_items .siedbara_img {
+        height: 250px;
+        cursor: pointer; }
+        .home_wraper .banner_main .main_addblog .main_sid .main_items .siedbara_img img {
+          width: 100%;
+          height: 250px; }
       .home_wraper .banner_main .main_addblog .main_sid .main_items .Background {
         background-color: #f4f3f3;
-        width: 294px;
         height: 250px; }
     .home_wraper .banner_main .SideBar {
       -ms-grid-column: 4;

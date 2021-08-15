@@ -245,51 +245,7 @@
         
                     }
                 }
-                // .media_main {
-                //     position: relative;
-                //     &::before{
-                //         content: "";
-                //         width: 1px;
-                //         height: 100%;
-                //         background: #e2e2e2;
-                //         position: absolute;
-                //         right: -16px;
-                //     }
-                
-                //     .mediaimg {
-                //         margin-right: 14px;
-                //         .media_img { 
-                //             width: 100%;
-                //             max-width: 113px;
-                //             height: 75px;
-                //         }
-                //     }
-                //     .banner_item {  
-                //         display: flex;
-                //         .media_head {
-                //             a {
-                //                 font-size: 18px;
-                //                 line-height: 1.5;
-                //                 font-weight: 600;
-                //                 font-family: 'Merriweather Sans', sans-serif;
-                //                 color: #121212;
-                //                 transition: all 0.5s ease;
-                //                 &:hover {
-                //                     color: #1a237e; 
-                //                 } 
-                //             }
-                            
-                //         }
-                        
-                //     }
-                //     .upedat_time {
-                //         color: #555;
-                //         font-size: small;
-                //         line-height: 1.7;
-                //         margin-top: 15px;
-        
-                //     }
-                // }
+               
             }
         }
         .main_addblog {
@@ -299,66 +255,18 @@
             .main_sid {
                 .main_items {
                     .siedbara_img {
-                        .img_fluid {
+                        height: 250px;
+                        cursor: pointer;
+                        img {
                             width: 100%;
-                            height: 150px;
+                            height: 250px;
                         }
                     }
                     .Background {
                         background-color: #f4f3f3;
-                        width: 294px;
                         height: 250px;
                     }
                     
-                //     .side_pra {
-                //         margin-bottom: 15px;
-                //         a {
-                //             color: #121212;
-                //             transition: all 0.5s ease;
-                //             font-size: 16px;
-                //             font-weight: 600;
-                //             &:hover {
-                //              color: #1a237e; 
-                //             }
-                //         }
-                        
-                //     }
-                //     .sid_manu {
-                //         display: flex;
-                //         .side_list {
-                //             margin-bottom: 15px;
-                //             a {
-                //                 display: block;
-                //                 .side_Img_right {
-                //                     margin-right: 15px;
-                //                 }
-                //             }
-                //             a {
-                //                 .sidemanu_pra {
-                //                     margin-bottom: 10px;
-                //                     font-size: 16px;
-                //                     line-height: 1.5;
-                //                     font-weight: 600;
-                //                     max-width: 180px;
-                //                     font-family: 'Merriweather Sans', sans-serif;
-                //                     color: #121212;
-                //                     transition: all 0.5s ease;
-                //                     &:hover {
-                //                         color: #1a237e; 
-                //                     }
-                //                 }
-    
-                //             }
-                //             .side_time {
-                //                 color: #555;
-                //                 font-size: 11px;
-                //                 margin-bottom: 5px;
-                //                 line-height: 1.7;
-                //             }
-                            
-                //         }
-                        
-                //     }
                 }
                 
             }
@@ -516,27 +424,4 @@
         
     }
     
-}
-
-@media (min-width: 876px){
-    .home_wraper .banner_main .banner_two .banner_media .media_main .mediaimg {
-        // float: left;
-        // margin-left: 0;
-        // margin-right: 10px;
-    }
-    .banner_item {  
-       
-        .media_head {
-            // width: 55%;
-            // float: right;
-            a {
-                &:hover {
-                   
-                } 
-            }
-            
-        }
-        
-    }
-
 }
