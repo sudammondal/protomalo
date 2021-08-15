@@ -185,26 +185,54 @@
                     }
                 
                     .mediaimg {
-                        margin-right: 14px;
-                        .media_img { 
+                        float: right;
+                        margin-left: 10px;
+                        width: 40%;
+                        position: relative;
+                        line-height: 0;
+                        float: left;
+                        margin-left: 0;
+                        margin-right: 13px;
+                        margin-bottom: 5px;
+                        a {
+                            display: inline-block;
+                            position: relative;
+                            overflow: hidden;
+                            padding-top: 66.66%;
                             width: 100%;
-                            max-width: 113px;
-                            height: 75px;
+                            background-color: red;
+                            margin: 0;
+                                img {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                    object-fit: cover;
+                                }
                         }
+                       
                     }
                     .banner_item {  
-                        display: flex;
                         .media_head {
+                            width: 55%;
+                            float: right;
+                            margin-bottom: 6px;
                             a {
+                                margin-left: 0;
+                                position: relative;
                                 font-size: 18px;
-                                line-height: 1.5;
+                                line-height: 1.3;
                                 font-weight: 600;
                                 font-family: 'Merriweather Sans', sans-serif;
                                 color: #121212;
                                 transition: all 0.5s ease;
                                 &:hover {
                                     color: #1a237e; 
-                                } 
+                                }
                             }
                             
                         }
@@ -214,10 +242,54 @@
                         color: #555;
                         font-size: small;
                         line-height: 1.7;
-                        margin-top: 15px;
         
                     }
                 }
+                // .media_main {
+                //     position: relative;
+                //     &::before{
+                //         content: "";
+                //         width: 1px;
+                //         height: 100%;
+                //         background: #e2e2e2;
+                //         position: absolute;
+                //         right: -16px;
+                //     }
+                
+                //     .mediaimg {
+                //         margin-right: 14px;
+                //         .media_img { 
+                //             width: 100%;
+                //             max-width: 113px;
+                //             height: 75px;
+                //         }
+                //     }
+                //     .banner_item {  
+                //         display: flex;
+                //         .media_head {
+                //             a {
+                //                 font-size: 18px;
+                //                 line-height: 1.5;
+                //                 font-weight: 600;
+                //                 font-family: 'Merriweather Sans', sans-serif;
+                //                 color: #121212;
+                //                 transition: all 0.5s ease;
+                //                 &:hover {
+                //                     color: #1a237e; 
+                //                 } 
+                //             }
+                            
+                //         }
+                        
+                //     }
+                //     .upedat_time {
+                //         color: #555;
+                //         font-size: small;
+                //         line-height: 1.7;
+                //         margin-top: 15px;
+        
+                //     }
+                // }
             }
         }
         .main_addblog {
@@ -238,56 +310,57 @@
                         height: 250px;
                     }
                     
-                    .side_pra {
-                        margin-bottom: 15px;
-                        a {
-                            color: #121212;
-                            transition: all 0.5s ease;
-                            font-size: 16px;
-                            font-weight: 600;
-                            &:hover {
-                             color: #1a237e; 
-                            }
-                        }
+                //     .side_pra {
+                //         margin-bottom: 15px;
+                //         a {
+                //             color: #121212;
+                //             transition: all 0.5s ease;
+                //             font-size: 16px;
+                //             font-weight: 600;
+                //             &:hover {
+                //              color: #1a237e; 
+                //             }
+                //         }
                         
-                    }
-                    .sid_manu {
-                        display: flex;
-                        .side_list {
-                            margin-bottom: 15px;
-                            a {
-                                display: block;
-                                .side_Img_right {
-                                    margin-right: 15px;
-                                }
-                            }
-                            a {
-                                .sidemanu_pra {
-                                    margin-bottom: 10px;
-                                    font-size: 16px;
-                                    line-height: 1.5;
-                                    font-weight: 600;
-                                    max-width: 180px;
-                                    font-family: 'Merriweather Sans', sans-serif;
-                                    color: #121212;
-                                    transition: all 0.5s ease;
-                                    &:hover {
-                                        color: #1a237e; 
-                                    }
-                                }
+                //     }
+                //     .sid_manu {
+                //         display: flex;
+                //         .side_list {
+                //             margin-bottom: 15px;
+                //             a {
+                //                 display: block;
+                //                 .side_Img_right {
+                //                     margin-right: 15px;
+                //                 }
+                //             }
+                //             a {
+                //                 .sidemanu_pra {
+                //                     margin-bottom: 10px;
+                //                     font-size: 16px;
+                //                     line-height: 1.5;
+                //                     font-weight: 600;
+                //                     max-width: 180px;
+                //                     font-family: 'Merriweather Sans', sans-serif;
+                //                     color: #121212;
+                //                     transition: all 0.5s ease;
+                //                     &:hover {
+                //                         color: #1a237e; 
+                //                     }
+                //                 }
     
-                            }
-                            .side_time {
-                                color: #555;
-                                font-size: 11px;
-                                margin-bottom: 5px;
-                                line-height: 1.7;
-                            }
+                //             }
+                //             .side_time {
+                //                 color: #555;
+                //                 font-size: 11px;
+                //                 margin-bottom: 5px;
+                //                 line-height: 1.7;
+                //             }
                             
-                        }
+                //         }
                         
-                    }
+                //     }
                 }
+                
             }
 
         }
@@ -302,7 +375,7 @@
             
             .main_sid {
                 position: relative;
-                ::before {
+                &::before {
                     content: "";
                     height: 1px;
                     position: absolute;
@@ -325,12 +398,11 @@
                     }
                     .Background {
                         background-color: #f4f3f3;
-                        width: 294px;
                         height: 250px;
                     }
                     
                     .side_pra {
-                        margin: 10px 0;
+                        margin-top: 10px;
                         a {
                             color: #121212;
                             transition: all 0.5s ease;
@@ -342,44 +414,81 @@
                         }
                         
                     }
-                    .sid_manu {
-                        .side_list {
-                            margin-bottom: 15px;
-                            a {
-                                display: block;
-                                .side_Img_right {
-                                    margin-right: 15px;
+                } 
+                .media_main {
+                    .mediaimg {
+                        float: right;
+                        margin-left: 10px;
+                        width: 40%;
+                        position: relative;
+                        line-height: 0;
+                        float: left;
+                        margin-left: 0;
+                        margin-right: 13px;
+                        margin-bottom: 5px;
+                        a {
+                            display: inline-block;
+                            position: relative;
+                            overflow: hidden;
+                            padding-top: 66.66%;
+                            width: 100%;
+                            background-color: red;
+                            margin: 0;
+                                img {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                    object-fit: cover;
                                 }
-                            }
+                        }
+                       
+                    }
+                    .banner_item {  
+                        .media_head {
+                            width: 55%;
+                            float: right;
+                            margin-bottom: 6px;
                             a {
-                                .sidemanu_pra {
-                                    margin-bottom: 10px;
-                                    font-size: 16px;
-                                    line-height: 1.5;
-                                    font-weight: 600;
-                                    max-width: 180px;
-                                    font-family: 'Merriweather Sans', sans-serif;
-                                    color: #121212;
-                                    transition: all 0.5s ease;
-                                    &:hover {
-                                        color: #1a237e; 
-                                    }
+                                margin-left: 0;
+                                position: relative;
+                                font-size: 18px;
+                                line-height: 1.3;
+                                font-weight: 600;
+                                font-family: 'Merriweather Sans', sans-serif;
+                                color: #121212;
+                                transition: all 0.5s ease;
+                                &:hover {
+                                    color: #1a237e; 
                                 }
-    
-                            }
-                            .side_time {
-                                color: #555;
-                                font-size: 11px;
-                                margin-bottom: 5px;
-                                line-height: 1.7;
                             }
                             
                         }
                         
                     }
+                    .upedat_time {
+                        color: #555;
+                        font-size: small;
+                        line-height: 1.7;
+        
+                    }
                 }
             }
            .main_papar {
+                position: relative;
+                &::before {
+                    content: "";
+                    height: 1px;
+                    position: absolute;
+                    background: #e2e2e2;
+                    top: -16px;
+                    left: 0;
+                    width: 100%;
+                }
                .papar_manu {
                    display: flex;
                    padding: 10px;
@@ -407,4 +516,27 @@
         
     }
     
+}
+
+@media (min-width: 876px){
+    .home_wraper .banner_main .banner_two .banner_media .media_main .mediaimg {
+        // float: left;
+        // margin-left: 0;
+        // margin-right: 10px;
+    }
+    .banner_item {  
+       
+        .media_head {
+            // width: 55%;
+            // float: right;
+            a {
+                &:hover {
+                   
+                } 
+            }
+            
+        }
+        
+    }
+
 }

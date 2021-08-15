@@ -7,18 +7,13 @@
         display: grid;
         grid-template-columns: 6fr 6fr;
         grid-column-gap: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #e2e2e2;
+        padding-bottom: 15px;
         .card_wold {
             border: 0;
             background-color: transparent;
             position: relative;
-            &::before {
-                content: "";
-                width: 1px;
-                height: 100%;
-                background: #e2e2e2;
-                position: absolute;
-                right: -15px;
-            }
             .card-img-top {
                border-radius: 0;
             }
@@ -47,14 +42,14 @@
             }
         }
         .world_item {
+           
             .costom_story_items {
                 display: grid;
                 grid-template-columns: 4fr 8fr;
                 grid-column-gap: 15px;
                 border-bottom: 1px solid #e2e2e2;
-                margin-bottom: 15px;
                 .story_items {
-                    padding-bottom: 15px;
+                    padding: 15px 0;
                     .card-body {
                         padding: 0;
                         .card-title{    

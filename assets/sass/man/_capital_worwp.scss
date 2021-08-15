@@ -1,50 +1,59 @@
 .capital_worwp {
     margin-bottom: 29px;
-    .rajdhani_item {
-        position: relative;
-        margin-bottom: 15px;
-        &::before {
-            content: "";
-            width: 1px;
-            height: 100%;
-            background: #e2e2e2;
-            position: absolute;
-            right: -12px;
-        }
-        .card {
-            border-radius: 0;
-            border: 0;
-            .card-img-top {
-                border-radius: 0;
-                height: 165px;
+    .capital_row {
+        grid-template-columns: repeat(4,1fr);
+        display: grid;
+        grid-column-gap: 30px;
+        .capital_col {
+            position: relative;
+            margin-bottom: 15px;
+            &::before {
+                content: "";
+                width: 1px;
+                height: 100%;
+                background: #e2e2e2;
+                position: absolute;
+                right: -16px;
             }
-            .card-body {
-                padding: 1rem 0;
-                .card-title {
-                    color:#333;
-                    font-size: 16px;
-                    line-height: 1.5;
-                    font-weight: 600;
-                    white-space: nowrap;
-                    width: 270px;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-
-                }
-                .card-text {
-                    color: #555;
-                    font-size: 14px;
-                    padding-bottom: 15px;
-
-                }
-                .title_time {
-                    font-size: 12px;
-                    color: #666;
-                    margin-bottom: 15px;
-
+            .rajdhani_item {
+                .card {
+                    border-radius: 0;
+                    border: 0;
+                    .card-img-top {
+                        border-radius: 0;
+                        height: 165px;
+                    }
+                    .card-body {
+                        padding: 1rem 0 0 0;
+                        .card-title {
+                            color:#333;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            font-weight: 600;
+                            white-space: nowrap;
+                            width: 270px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+        
+                        }
+                        .card-text {
+                            color: #555;
+                            font-size: 14px;
+                            padding-bottom: 15px;
+        
+                        }
+                        .title_time {
+                            font-size: 12px;
+                            color: #666;
+                            margin-bottom: 15px;
+        
+                        }
+                    }
                 }
             }
+
         }
     }
+    
     
 }

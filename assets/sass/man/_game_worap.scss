@@ -5,7 +5,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
         .world_item {
-            margin-bottom: 15px;
             .costom_story_items {
                 .story_items {
                     .card-body {
@@ -131,12 +130,12 @@
                     }
                 }
                 .slick-prev { 
-    background: #0072ff85;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    z-index: 100 !important;
-} 
+                    background: #0072ff85;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    z-index: 100 !important;
+                } 
                 .slick-list {
                     width: 394px;
                     padding-left: 0px !important; 
