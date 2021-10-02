@@ -86,7 +86,7 @@ window.onscroll = function() {
       slidesToShow: 1,
       centerMode: false,
       autoplay: false,
-      variableWidth: false
+      variableWidth: false,
     });
   });
   $(document).ready(function(){
@@ -96,5 +96,34 @@ window.onscroll = function() {
       autoplay: false,
       autoplaySpeed: 2000,
       infinite: false,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          dots: false,
+          }
+          },
+            {
+              breakpoint: 767,
+              settings: {
+                  slidesToShow: 2,
+                  dots: false,
+              }
+          },
+          {
+              breakpoint: 600,
+              settings: {
+                  slidesToShow: 2,
+                  dots: false,
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1,
+                  dots: false,
+              }
+          }
+      ]
     });
   });

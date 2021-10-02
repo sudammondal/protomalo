@@ -9,18 +9,18 @@
                 display: grid;
                 grid-template-columns: 8fr 4fr;
                 grid-column-gap:30px;
+                margin-bottom: 32px;
                 .country_item_col {
+                    position: relative;
+                    &::before {
+                        content: "";
+                        width: 1px;
+                        height: 100%;
+                        background: #e2e2e2;
+                        position: absolute;
+                        right: -16px;
+                    }
                     .oll_country_item  {
-                        position: relative;
-                        margin-bottom: 20px;
-                        &::before {
-                            content: "";
-                            width: 1px;
-                            height: 100%;
-                            background: #e2e2e2;
-                            position: absolute;
-                            right: -16px;
-                        }
                         .card {
                             border-radius: 0;
                             border: 0;
@@ -103,7 +103,6 @@
             
 
             .contry_part {
-                margin: 20px 0;
                 .contry_part_row {
                     grid-template-columns: repeat(3,4fr);
                     display: grid;
