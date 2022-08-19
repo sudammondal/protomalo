@@ -2423,7 +2423,9 @@ img {
     -ms-flex-direction: column;
     flex-direction: column; }
   .game_worap .wrapper .world_item .costom_story_items .story_items .card-body .card-title {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .world_item .dispalyNone {
+    display: none !important; } }
 
 @media (max-width: 992px) {
   .header .container {
@@ -2603,3 +2605,9 @@ img {
     grid-area: 2/4/3/5; }
     .img_wrorap .photo_tory .photi_items:nth-child(4) .stories_card .stories_head {
       font-size: 18px; } }
+
+@media (max-width: 1024px) {
+  .game_worap .wrapper .world_game .world_item {
+    display: none !important; }
+    .game_worap .wrapper .world_game .world_item .world_slider_items.dispalyNone.slick-initialized.slick-slider.slick-dotted {
+      display: none !important; } }

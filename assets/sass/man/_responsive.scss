@@ -8,6 +8,7 @@
 @media (max-width: 1200px) {  }
 
 @media (max-width: 1024px) { 
+    
     .container {
         max-width: 1015px;
     }
@@ -216,6 +217,11 @@
     .game_worap .wrapper .world_item .costom_story_items .story_items .card-body .card-title {
         font-size: 16px;
     }
+    .world_item{
+        .dispalyNone {
+            display: none !important;
+        }
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) { 
@@ -396,12 +402,6 @@
 
 }
 
-
-
-
-
-
-
 @media (min-width: 876px) {
    
     .img_wrorap { 
@@ -439,6 +439,21 @@
                     }
                 }
                 
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .game_worap {
+        .wrapper {
+            .world_game {
+                .world_item  {
+                    display: none !important;
+                    .world_slider_items.dispalyNone.slick-initialized.slick-slider.slick-dotted {
+                        display: none !important;
+                    }
+                }
+
             }
         }
     }

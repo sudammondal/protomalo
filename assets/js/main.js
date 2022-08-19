@@ -87,6 +87,35 @@ window.onscroll = function() {
       centerMode: false,
       autoplay: false,
       variableWidth: false,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 0,
+          dots: false,
+          }
+          },
+            {
+              breakpoint: 767,
+              settings: {
+                  slidesToShow: 2,
+                  dots: false,
+              }
+          },
+          {
+              breakpoint: 600,
+              settings: {
+                  slidesToShow: 2,
+                  dots: false,
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1,
+                  dots: false,
+              }
+          }
+      ]
     });
   });
   $(document).ready(function(){
